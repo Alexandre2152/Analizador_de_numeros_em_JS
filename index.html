@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Analisador de Números
+    </header>
+    <section>
+        <div>
+            Número (entre 1 e 100): <input type="number" id="numero">
+            <button id="btn" onclick="add()">Adiconar</button>
+        </div>
+        <div>
+            <select name="adicionarValor" id="exibirValor" size="8px" >
+                
+            </select><br>
+            <button type="reset" id="btnlimpar" onclick="finalizar()">Finalizar</button>
+        </div>
+        <div id="res"></div>
+    </section>
+    <footer>
+        <p>&copy; Alexandre Santana</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
